@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="bg-white text-base dark:bg-neutral-900 text-neutral-900 dark:text-neutral-200">
+
+
+    <!-- header -->
+    <div class="nc-HeaderLogged sticky top-0 w-full z-40">
+        <div class="nc-MainNav2Logged relative z-10 bg-white dark:bg-neutral-900 border-b border-slate-100 dark:border-slate-700">
+            <div class="container">
+                <div class="h-20 flex justify-between">
+                    <div class="flex items-center lg:hidden flex-1">
+                        <button class="p-2.5 rounded-lg text-neutral-700 dark:text-neutral-300 focus:outline-none flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="lg:flex-1 flex items-center">
+                        <a class="ttnc-logo inline-block text-slate-600 flex-shrink-0" href="/">
+                            <img alt="Logo" fetchpriority="high" width="162" height="46" decoding="async" data-nimg="1" class="block h-8 sm:h-10 w-auto dark:hidden" style="color: transparent;" src="/_next/static/media/logo.14d0e71d.svg" />
+                            <img  
+                                alt="Logo-Light" fetchpriority="high" width="162" height="46" decoding="async" data-nimg="1"
+                                class="hidden h-8 sm:h-10 w-auto dark:block"
+                                style="color: transparent;"
+                                src="/_next/static/media/logo-light.695409b5.svg"
+                            />
+                        </a>
+                    </div>
+                    <div class="flex-[2] hidden lg:flex justify-center mx-4">
+                        <ul class="nc-Navigation flex items-center">
+                            <li class="menu-item flex-shrink-0">
+                                <div class="h-20 flex-shrink-0 flex items-center">
+                                    <a
+                                        class="inline-flex items-center text-sm lg:text-[15px] font-medium text-slate-700 dark:text-slate-300 py-2.5 px-4 xl:px-5 rounded-full hover:text-slate-900 hover:bg-slate-100 dark:hover:bg-slate-800 dark:hover:text-slate-200"
+                                        href="/collection"
+                                    >
+                                        Men
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="menu-item flex-shrink-0">
+                                <div class="h-20 flex-shrink-0 flex items-center">
+                                    <a
+                                        class="inline-flex items-center text-sm lg:text-[15px] font-medium text-slate-700 dark:text-slate-300 py-2.5 px-4 xl:px-5 rounded-full hover:text-slate-900 hover:bg-slate-100 dark:hover:bg-slate-800 dark:hover:text-slate-200"
+                                        href="/collection-2"
+                                    >
+                                        Women
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="menu-item flex-shrink-0">
+                                <div class="h-20 flex-shrink-0 flex items-center">
+                                    <a
+                                        class="inline-flex items-center text-sm lg:text-[15px] font-medium text-slate-700 dark:text-slate-300 py-2.5 px-4 xl:px-5 rounded-full hover:text-slate-900 hover:bg-slate-100 dark:hover:bg-slate-800 dark:hover:text-slate-200"
+                                        href="/collection"
+                                    >
+                                        Beauty
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="menu-item flex-shrink-0">
+                                <div class="h-20 flex-shrink-0 flex items-center">
+                                    <a
+                                        class="inline-flex items-center text-sm lg:text-[15px] font-medium text-slate-700 dark:text-slate-300 py-2.5 px-4 xl:px-5 rounded-full hover:text-slate-900 hover:bg-slate-100 dark:hover:bg-slate-800 dark:hover:text-slate-200"
+                                        href="/collection-2"
+                                    >
+                                        Sport
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="menu-item flex-shrink-0 menu-megamenu menu-megamenu--large">
+                                <div class="h-20 flex-shrink-0 flex items-center">
+                                    <a
+                                        class="inline-flex items-center text-sm lg:text-[15px] font-medium text-slate-700 dark:text-slate-300 py-2.5 px-4 xl:px-5 rounded-full hover:text-slate-900 hover:bg-slate-100 dark:hover:bg-slate-800 dark:hover:text-slate-200"
+                                        href="/collection"
+                                    >
+                                        Templates
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="ml-1 -mr-1 h-4 w-4 text-slate-400">
+                                            <path fill-rule="evenodd" d="M12.53 16.28a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 14.69l6.97-6.97a.75.75 0 111.06 1.06l-7.5 7.5z" clip-rule="evenodd"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="invisible sub-menu absolute top-full inset-x-0 transform z-50">
+                                    <div class="bg-white dark:bg-neutral-900 shadow-lg">
+                                        <div class="container">
+                                            <div class="flex text-sm border-t border-slate-200 dark:border-slate-700 py-14">
+                                                <div class="flex-1 grid grid-cols-4 gap-6 xl:gap-8 pr-6 xl:pr-8">
+                                                    <div>
+                                                        <p class="font-medium text-slate-900 dark:text-neutral-200">Home Page</p>
+                                                        <ul class="grid space-y-4 mt-4">
+                                                            <li class=""><a class="font-normal text-slate-600 hover:text-black dark:text-slate-400 dark:hover:text-white" href="/">Home 1</a></li>
+                                                            <li class="menuIsNew"><a class="font-normal text-slate-600 hover:text-black dark:text-slate-400 dark:hover:text-white" href="/home-2">Home 2</a></li>
+                                                            <li class=""><a class="font-normal text-slate-600 hover:text-black dark:text-slate-400 dark:hover:text-white" href="/">Header 1</a></li>
+                                                            <li class="menuIsNew"><a class="font-normal text-slate-600 hover:text-black dark:text-slate-400 dark:hover:text-white" href="/home-2">Header 2</a></li>
+                                                            <li class=""><a class="font-normal text-slate-600 hover:text-black dark:text-slate-400 dark:hover:text-white" href="/">Coming Soon</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div>
+                                                        <p class="font-medium text-slate-900 dark:text-neutral-200">Shop Pages</p>
+                                                        <ul class="grid space-y-4 mt-4">
+                                                            <li class=""><a class="font-normal text-slate-600 hover:text-black dark:text-slate-400 dark:hover:text-white" href="/collection">Category Page 1</a></li>
+                                                            <li class=""><a class="font-normal text-slate-600 hover:text-black dark:text-slate-400 dark:hover:text-white" href="/collection-2">Category Page 2</a></li>
+                                                            <li class=""><a class="font-normal text-slate-600 hover:text-black dark:text-slate-400 dark:hover:text-white" href="/product-detail">Product Page 1</a></li>
+                                                            <li class=""><a class="font-normal text-slate-600 hover:text-black dark:text-slate-400 dark:hover:text-white" href="/product-detail-2">Product Page 2</a></li>
+                                                            <li class=""><a class="font-normal text-slate-600 hover:text-black dark:text-slate-400 dark:hover:text-white" href="/cart">Cart Page</a></li>
+                                                            <li class=""><a class="font-normal text-slate-600 hover:text-black dark:text-slate-400 dark:hover:text-white" href="/checkout">Checkout Page</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div>
+                                                        <p class="font-medium text-slate-900 dark:text-neutral-200">Other Pages</p>
+                                                        <ul class="grid space-y-4 mt-4">
+                                                            <li class=""><a class="font-normal text-slate-600 hover:text-black dark:text-slate-400 dark:hover:text-white" href="/checkout">Checkout Page</a></li>
+                                                            <li class=""><a class="font-normal text-slate-600 hover:text-black dark:text-slate-400 dark:hover:text-white" href="/search">Search Page</a></li>
+                                                            <li class=""><a class="font-normal text-slate-600 hover:text-black dark:text-slate-400 dark:hover:text-white" href="/cart">Cart Page</a></li>
+                                                            <li class=""><a class="font-normal text-slate-600 hover:text-black dark:text-slate-400 dark:hover:text-white" href="/account">Accout Page</a></li>
+                                                            <li class=""><a class="font-normal text-slate-600 hover:text-black dark:text-slate-400 dark:hover:text-white" href="/account-order">Order Page</a></li>
+                                                            <li class=""><a class="font-normal text-slate-600 hover:text-black dark:text-slate-400 dark:hover:text-white" href="/subscription">Subscription</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div>
+                                                        <p class="font-medium text-slate-900 dark:text-neutral-200">Blog Page</p>
+                                                        <ul class="grid space-y-4 mt-4">
+                                                            <li class=""><a class="font-normal text-slate-600 hover:text-black dark:text-slate-400 dark:hover:text-white" href="/blog">Blog Page</a></li>
+                                                            <li class=""><a class="font-normal text-slate-600 hover:text-black dark:text-slate-400 dark:hover:text-white" href="/blog-single">Blog Single</a></li>
+                                                            <li class=""><a class="font-normal text-slate-600 hover:text-black dark:text-slate-400 dark:hover:text-white" href="/about">About Page</a></li>
+                                                            <li class=""><a class="font-normal text-slate-600 hover:text-black dark:text-slate-400 dark:hover:text-white" href="/contact">Contact Page</a></li>
+                                                            <li class=""><a class="font-normal text-slate-600 hover:text-black dark:text-slate-400 dark:hover:text-white" href="/login">Login</a></li>
+                                                            <li class=""><a class="font-normal text-slate-600 hover:text-black dark:text-slate-400 dark:hover:text-white" href="/signup">Signup</a></li>
+                                                            <li class=""><a class="font-normal text-slate-600 hover:text-black dark:text-slate-400 dark:hover:text-white" href="/forgot-pass">Forgot Password</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="w-[40%] xl:w-[35%]">
+                                                    <a class="nc-CardCategory3 block" href="/collection">
+                                                        <div class="relative w-full aspect-w-16 aspect-h-11 sm:aspect-h-9 h-0 rounded-2xl overflow-hidden group bg-blue-50">
+                                                            <div>
+                                                                <div class="absolute inset-5 sm:inset-8">
+                                                                    <img
+                                                                        alt=""
+                                                                        loading="lazy"
+                                                                        width="362"
+                                                                        height="396"
+                                                                        decoding="async"
+                                                                        data-nimg="1"
+                                                                        class="absolute right-0 w-1/2 max-w-[260px] h-full object-contain drop-shadow-xl"
+                                                                        style="color: transparent;"
+                                                                        srcset="
+                                                                            /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.0ee67265.png&amp;w=384&amp;q=75 1x,
+                                                                            /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.0ee67265.png&amp;w=750&amp;q=75 2x
+                                                                        "
+                                                                        src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.0ee67265.png&amp;w=750&amp;q=75"
+                                                                    />
+                                                                </div>
+                                                            </div>
+                                                            <span class="opacity-0 group-hover:opacity-40 absolute inset-0 bg-black/10 transition-opacity"></span>
+                                                            <div>
+                                                                <div class="absolute inset-5 sm:inset-8 flex flex-col">
+                                                                    <div class="max-w-xs">
+                                                                        <span class="block mb-2 text-sm text-slate-700">Sale collection</span>
+                                                                        <h2 class="text-xl md:text-2xl text-slate-900 font-semibold">
+                                                                            Up to <br />
+                                                                            80% off retail
+                                                                        </h2>
+                                                                    </div>
+                                                                    <div class="mt-auto">
+                                                                        <button
+                                                                            class="nc-Button relative h-auto inline-flex items-center justify-center rounded-full transition-colors text-sm font-medium py-3 px-4 sm:py-3.5 sm:px-6 ttnc-ButtonSecondary bg-white text-slate-700 dark:bg-slate-900 dark:text-slate-300 hover:bg-gray-100 dark:hover:bg-slate-800 nc-shadow-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-6000 dark:focus:ring-offset-0"
+                                                                        >
+                                                                            Show me all
+                                                                        </button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="menu-item menu-dropdown relative" data-headlessui-state="">
+                                <div class="h-20 flex-shrink-0 flex items-center" aria-expanded="false" data-headlessui-state="" id="headlessui-popover-button-:R76ba:">
+                                    <a
+                                        class="inline-flex items-center text-sm lg:text-[15px] font-medium text-slate-700 dark:text-slate-300 py-2.5 px-4 xl:px-5 rounded-full hover:text-slate-900 hover:bg-slate-100 dark:hover:bg-slate-800 dark:hover:text-slate-200"
+                                        href="/search"
+                                    >
+                                        Explore
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="ml-1 -mr-1 h-4 w-4 text-slate-400">
+                                            <path fill-rule="evenodd" d="M12.53 16.28a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 14.69l6.97-6.97a.75.75 0 111.06 1.06l-7.5 7.5z" clip-rule="evenodd"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="flex-1 flex items-center justify-end text-slate-700 dark:text-slate-100">
+                        <button class="hidden lg:flex w-10 h-10 sm:w-12 sm:h-12 rounded-full text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 focus:outline-none items-center justify-center">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M11.5 21C16.7467 21 21 16.7467 21 11.5C21 6.25329 16.7467 2 11.5 2C6.25329 2 2 6.25329 2 11.5C2 16.7467 6.25329 21 11.5 21Z"
+                                    stroke="currentColor"
+                                    stroke-width="1.5"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                ></path>
+                                <path d="M22 22L20 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                        </button>
+                        <div class="AvatarDropdown">
+                            <div class="relative" data-headlessui-state="">
+                                <button
+                                    class="w-10 h-10 sm:w-12 sm:h-12 rounded-full text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 focus:outline-none flex items-center justify-center"
+                                    type="button"
+                                    aria-expanded="false"
+                                    data-headlessui-state=""
+                                    id="headlessui-popover-button-:R38ba:"
+                                >
+                                    <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M12 12C14.7614 12 17 9.76142 17 7C17 4.23858 14.7614 2 12 2C9.23858 2 7 4.23858 7 7C7 9.76142 9.23858 12 12 12Z"
+                                            stroke="currentColor"
+                                            stroke-width="1.5"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        ></path>
+                                        <path d="M20.5899 22C20.5899 18.13 16.7399 15 11.9999 15C7.25991 15 3.40991 18.13 3.40991 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="relative" data-headlessui-state="">
+                            <button
+                                class="text-opacity-90 group w-10 h-10 sm:w-12 sm:h-12 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-full inline-flex items-center justify-center focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 relative"
+                                type="button"
+                                aria-expanded="false"
+                                data-headlessui-state=""
+                                id="headlessui-popover-button-:R3oba:"
+                            >
+                                <div class="w-3.5 h-3.5 flex items-center justify-center bg-primary-500 absolute top-1.5 right-1.5 rounded-full text-[10px] leading-none text-white font-medium"><span class="mt-[1px]">3</span></div>
+                                <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M2 2H3.74001C4.82001 2 5.67 2.93 5.58 4L4.75 13.96C4.61 15.59 5.89999 16.99 7.53999 16.99H18.19C19.63 16.99 20.89 15.81 21 14.38L21.54 6.88C21.66 5.22 20.4 3.87 18.73 3.87H5.82001"
+                                        stroke="currentColor"
+                                        stroke-width="1.5"
+                                        stroke-miterlimit="10"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    ></path>
+                                    <path
+                                        d="M16.25 22C16.9404 22 17.5 21.4404 17.5 20.75C17.5 20.0596 16.9404 19.5 16.25 19.5C15.5596 19.5 15 20.0596 15 20.75C15 21.4404 15.5596 22 16.25 22Z"
+                                        stroke="currentColor"
+                                        stroke-width="1.5"
+                                        stroke-miterlimit="10"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    ></path>
+                                    <path
+                                        d="M8.25 22C8.94036 22 9.5 21.4404 9.5 20.75C9.5 20.0596 8.94036 19.5 8.25 19.5C7.55964 19.5 7 20.0596 7 20.75C7 21.4404 7.55964 22 8.25 22Z"
+                                        stroke="currentColor"
+                                        stroke-width="1.5"
+                                        stroke-miterlimit="10"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    ></path>
+                                    <path d="M9 8H21" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
+                                <a class="block md:hidden absolute inset-0" href="/cart"></a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
